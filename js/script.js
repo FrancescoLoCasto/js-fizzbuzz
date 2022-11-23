@@ -8,3 +8,13 @@ let Fizz = document.getElementById("Fizz")
 let Buzz = document.getElementById("Buzz")
 let FizzBuzz = document.getElementById("FizzBuzz")
 let fizzNumbers = document.getElementById("fizzNumbers")
+
+
+for (let i = 0; i <= 100; i++) {
+
+   if (i % 15 === 0){
+      console.log("FizzBuzz")
+   }
+
+
+}
