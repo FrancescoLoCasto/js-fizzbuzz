@@ -10,6 +10,8 @@ let FizzBuzz = document.getElementById("FizzBuzz")
 let fizzNumbers = document.getElementById("fizzNumbers")
 
 //  First if numbers that are both multiples of 3 and 5
+//  First Else If multiples of 5
+//  Second else if multiples of 3
 
 
 for (let i = 0; i <= 100; i++) {
@@ -19,6 +21,8 @@ for (let i = 0; i <= 100; i++) {
 
    } else if (i % 5 === 0) {
       console.log("Buzz")
+   } else if (i % 3 === 0) {
+      console.log("Fizz")
    }
 
 
