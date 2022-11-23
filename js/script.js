@@ -9,6 +9,8 @@ let Buzz = document.getElementById("Buzz")
 let FizzBuzz = document.getElementById("FizzBuzz")
 let fizzNumbers = document.getElementById("fizzNumbers")
 
+// First if numbers that are both multiples of 3 and 5
+
 
 for (let i = 0; i <= 100; i++) {
 
