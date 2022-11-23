@@ -1,4 +1,20 @@
 #Fizz{
    background-color: blue;
    color: white;
+
+}
+
+#Buzz{
+   background-color: darkred;
+   color: chartreuse;
+}
+
+#FizzBuzz{
+   background-color: rgb(0, 86, 247);
+}
+
+#fizzNumbers{
+   background-color: darkred;
+   color: yellow;
+   
 }

@@ -18,6 +18,7 @@ for (let i = 0; i <= 100; i++) {
 
    if (i % 15 === 0){
       console.log("FizzBuzz")
+      FizzBuzz.append("FizzyBuzzy")
 
    } else if (i % 5 === 0) {
       console.log("Buzz")
@@ -28,6 +29,7 @@ for (let i = 0; i <= 100; i++) {
       Fizz.append("Fizzy")
    } else {
       console.log(i)
+      fizzNumbers.append(i)
    }
 
 }
