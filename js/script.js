@@ -14,7 +14,7 @@ let fizzNumbers = document.getElementById("fizzNumbers")
 //  Second else if multiples of 3
 
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 99; i++) {
 
    if (i % 15 === 0){
       console.log("FizzBuzz")
