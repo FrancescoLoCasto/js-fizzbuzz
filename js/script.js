@@ -21,10 +21,11 @@ for (let i = 0; i <= 100; i++) {
 
    } else if (i % 5 === 0) {
       console.log("Buzz")
+      Buzz.append("Buzzy")
 
    } else if (i % 3 === 0) {
       console.log("Fizz")
-
+      Fizz.append("Fizzy")
    } else {
       console.log(i)
    }
